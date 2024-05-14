@@ -161,7 +161,7 @@ ALTER deadline DROP DEFAULT;
 ```
 
 ## Hasil
-![[h.hps-constrain.jpeg]]
+![h.hps-constrain.jpeg](asetbs/h.hps-constrain.jpeg)
 
 ## Analisis
 1. **ALTER TABLE daftar_mobil**: Ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "daftar_mobil".
