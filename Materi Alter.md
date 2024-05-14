@@ -17,7 +17,7 @@ ALTER TABLE nama_tabel ADD nama_kolom varchar(10) AFTER nama_kolom;
 `After` Opsional untuk digunakan, jika tidak menggunakan klausa ini maka secara default kolom yang dibuat akan berada di akhir. Jika kolom ingin ditaruh pada awal kolom maka gunakan klausa `First`. dan hasilnya sebagai berikut:
 
 Hasil
-![image](Materi%20alter/asetbs/after.png)
+![image](asetbs/after.png)
 
 ___
 ## Anasisis
@@ -43,7 +43,7 @@ update mobil set batas_peminjam="2024-04-24" where peminjam is not null;
   
 
 Hasil
-![image](+.png)
+![image](asetbs/+.png)
 
   
 
@@ -61,7 +61,7 @@ ALTER TABLE mobil CHANGE batas_peminjam deadline varchar(10);
 
   
 ## Hasil
-![image](rename.png)
+![image](asetbs/rename.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -89,7 +89,7 @@ ALTER TABLE mobil MODIFY deadline DATE;
   
 
 ## Hasil
-![image](tipedata.png)
+![image](asetbs/tipedata.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -119,7 +119,7 @@ ALTER TABLE mobil
   
 
 ## Hasil
-![image](ready.png)
+![image](asetbs/ready.png)
 
 ## Analisi
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -145,7 +145,7 @@ INSERT INTO mobil
   
 
 ### Hasil
-![image](++.png)
+![image](asetbs/++.png)
 
 # Menghapus Constraint
 
