@@ -1,5 +1,6 @@
 # Menambahkan Colom
 Strutur awal pada tabel mobil:
+
 ![image](asetbs/before.png)
 
 ## Struktur
