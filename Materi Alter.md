@@ -1,7 +1,7 @@
 # Menambahkan Colom
 Strutur awal pada tabel mobil:
 
-![image](asetbsbefore.png)
+![alter1.png](asetbs/alter1.png)
 
 ## Struktur
 ```mysql
