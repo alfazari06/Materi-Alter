@@ -1,7 +1,7 @@
 # Menambahkan Colom
 Strutur awal pada tabel mobil:
 
-![image](asetbs/before.png)
+![image](asetbsbefore.png)
 
 ## Struktur
 ```mysql
@@ -18,7 +18,7 @@ ALTER TABLE nama_tabel ADD nama_kolom varchar(10) AFTER nama_kolom;
 `After` Opsional untuk digunakan, jika tidak menggunakan klausa ini maka secara default kolom yang dibuat akan berada di akhir. Jika kolom ingin ditaruh pada awal kolom maka gunakan klausa `First`. dan hasilnya sebagai berikut:
 
 Hasil
-![image](asetbs/after.png)
+![image](asetbsafter.png)
 
 ___
 ## Anasisis
@@ -44,7 +44,7 @@ update mobil set batas_peminjam="2024-04-24" where peminjam is not null;
   
 
 Hasil
-![image](asetbs/+.png)
+![image](asetbs+.png)
 
   
 
@@ -62,7 +62,7 @@ ALTER TABLE mobil CHANGE batas_peminjam deadline varchar(10);
 
   
 ## Hasil
-![image](asetbs/rename.png)
+![image](asetbsrename.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -90,7 +90,7 @@ ALTER TABLE mobil MODIFY deadline DATE;
   
 
 ## Hasil
-![image](asetbs/tipedata.png)
+![image](asetbstipedata.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -120,7 +120,7 @@ ALTER TABLE mobil
   
 
 ## Hasil
-![image](asetbs/ready.png)
+![image](asetbsready.png)
 
 ## Analisi
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -146,7 +146,7 @@ INSERT INTO mobil
   
 
 ### Hasil
-![image](asetbs/++.png)
+![image](asetbs++.png)
 
 # Menghapus Constraint
 
@@ -162,7 +162,7 @@ ALTER deadline DROP DEFAULT;
 ```
 
 ## Hasil
-![h.hps-constrain.jpeg](asetbs/h.hps-constrain.jpeg)
+![h.hps-constrain.jpeg](asetbsh.hps-constrain.jpeg)
 
 ## Analisis
 1. **ALTER TABLE daftar_mobil**: Ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "daftar_mobil".
