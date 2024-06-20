@@ -62,7 +62,7 @@ ALTER TABLE mobil CHANGE batas_peminjam deadline varchar(10);
 
   
 ## Hasil
-![alter4.png](asetbs/alter4.png.png)
+![alter4.png](asetbs/alter4.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
@@ -90,7 +90,7 @@ ALTER TABLE mobil MODIFY deadline DATE;
   
 
 ## Hasil
-![alter5.png](asetbs/alter5.png.png)
+![alter5.png](asetbs/alter5.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
