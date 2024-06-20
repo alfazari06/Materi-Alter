@@ -18,7 +18,7 @@ ALTER TABLE nama_tabel ADD nama_kolom varchar(10) AFTER nama_kolom;
 `After` Opsional untuk digunakan, jika tidak menggunakan klausa ini maka secara default kolom yang dibuat akan berada di akhir. Jika kolom ingin ditaruh pada awal kolom maka gunakan klausa `First`. dan hasilnya sebagai berikut:
 
 Hasil
-![alter2.png](asetb/alter2.png)
+![alter2.png](asetbs/alter2.png)
 
 ___
 ## Anasisis
@@ -62,7 +62,7 @@ ALTER TABLE mobil CHANGE batas_peminjam deadline varchar(10);
 
   
 ## Hasil
-![alter4.png](asetb/alter4.png.png)
+![alter4.png](asetbs/alter4.png.png)
 
 ## Analisis
 1. **ALTER TABLE mobil**: Seperti sebelumnya, ini adalah perintah untuk mengubah struktur tabel yang sudah ada, dalam hal ini, tabel "mobil".
